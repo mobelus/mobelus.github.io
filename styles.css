@@ -1,0 +1,717 @@
+html, body, .container {
+    min-width: 1300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --------------- BASE STYLE --------------- */
+
+.knockout-around {
+    object-fit: contain;
+    /* border: solid 1px #d1d1d1; */
+    border-image-source: linear-gradient(to right, #b74fff 21%, #31a1ea);
+    border-image-slice: 1;
+    border-radius: 0;
+}
+
+/* --------------- HEADER --------------- */
+
+/*
+.header-info {
+    background: white bottom;
+    opacity: 0.75;
+    height: 80px;
+    margin-top: -10px;
+}
+
+
+.header-info-menu-image {
+    font-family: Geometria, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 140px;
+    text-decoration: none;
+    float:left;
+    list-style-type: none;
+}
+
+.header-info-menu {
+    margin-top: 25px;
+    padding-left: 140px;
+    float:left;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Geometria, sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.header-info-link {
+    color: #000000;
+}
+
+.header-info-phone {
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+*/
+
+.header-info {
+    position: absolute;
+    background: white bottom;
+    opacity: 0.75;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.16);
+    min-width: 1300px;
+}
+
+.header-info-menu-image {
+    font-family: Geometria, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    /*    padding-left: 140px;*/
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+}
+
+.header-info-menu {
+    margin-top: 25px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Geometria-Medium, sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.header-info-link {
+    /*padding-bottom: 1px;*/
+    /*border-bottom: 1px solid black;*/
+    line-height: 14px;
+    color: #000000;
+}
+
+.header-info-phone {
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* --------------- HEADERWRAP --------------- */
+
+.header-wrapper {
+    padding-top: 0;
+    /*background: url(img/main-bacground-image.jpg) no-repeat bottom;*/
+    background: url(img/wall.jpg) repeat bottom;
+    min-height: 600px;
+    /*padding: 0 30px;*/
+    /*margin: 50px;*/
+    /*resize: both;*/
+    /*background-position-y:1500px;*/
+}
+
+.accessories {
+    margin-top: 105px;
+    background: url(img/accessories.png) no-repeat bottom center;
+    background-size: contain;
+    width: 1300px;
+    height: 500px;
+}
+
+.header-wrapper-title {
+    color: #007eff;
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 0.91;
+    text-align: left;
+    margin-top: 50px;
+    width: 573px;
+    height: 150px;
+}
+
+.header-wrapper-text {
+    color: #000000;
+    font-family: Geometria-Light, sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: left;
+    margin-top: 25px;
+    width: 573px;
+    height: 65px;
+}
+
+.header-btn-contact-us {
+    background-color: red;
+    font-family: Geometria, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.18;
+    margin-top: 25px;
+    width: 260px;
+    height: 53px;
+    color: white;
+    border-radius: 0px;
+    padding: 12px 10px;
+    display: inline-block
+}
+
+/* --------------- OUR SERVICES --------------- */
+
+.services-transparent-title {
+    margin-top: -20px;
+    text-align: center;
+    /*margin-left: 88px;*/
+    /* text-align: left;
+    margin-left: 160px; */
+    object-fit: contain;
+}
+
+.services-transparent-text {
+    opacity: 0.92;
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 172px;
+    font-weight: 800;
+    line-height: 0.87;
+    /*text-transform: full-width;*/
+    text-transform: uppercase;
+    color: rgba(7, 130, 255, 0.07);
+    margin-top: -60px;
+    object-fit: contain;
+}
+
+.services-transparent-text-image {
+    /*88% image was resized*/
+    object-fit: contain;
+    object-position: center;
+    width: 57%;
+}
+
+.services-title {
+    object-fit: contain;
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 0.92;
+    text-align: left;
+    color: #0782ff;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    /*margin-left: 220px;
+    /*padding: 0px 100px; /* 0-20 -> 0-100 turns right */
+    /*padding: 100px 0px; /* 10-0 -> 100-0 turns down */
+}
+
+.services-title-text {
+    object-fit: contain;
+    font-family: Geometria, sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: left;
+    color: #000000;
+}
+
+/* --------------- SERVICES --------------- */
+.services {
+    margin: 50px auto 90px;
+    text-align: center;
+    position: relative;
+    top: -14px;
+}
+
+.service {
+    /*height: 270px;*/
+    /*height: 70%;*/
+    padding: 40px 0 0;
+    border: 3px solid;
+    border-top: 0;
+    border-image-source: linear-gradient(to bottom, #ffffff, #e5f2ff, #e5f2ff);
+    border-image-slice: 1;
+    overflow: auto;
+}
+
+.height-service {
+    height: 300px;
+    /*height: 100%;*/
+}
+
+.service-image {
+    max-width: 100%;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.service-link {
+    font-weight: bold;
+    display: block;
+}
+
+.service-title {
+    object-fit: contain;
+    font-family: Geometria-Medium, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #000407;
+    margin-top: 20px;
+}
+
+.service-text {
+    object-fit: contain;
+    font-family: Geometria, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #000407;
+    margin-top: 14px;
+}
+
+/* --------------- RELEASED PRODUCTS --------------- */
+.releases-under {
+    /*object-fit: contain;*/
+    height: 660px;
+    width: 100%;
+    background-image: linear-gradient(to right, #0181fe, #81c9f7);
+}
+
+.releases {
+    /*
+        height: 500px;
+        width: 100%;
+        background-image: linear-gradient(to right, #0181fe, #81c9f7);
+    */
+}
+
+.overlay {
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+    text-align: center;
+}
+
+.releases-transparent-text {
+    position: absolute;
+    object-fit: contain;
+    opacity: 0.06;
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 185px;
+    font-weight: 800;
+    line-height: 0.87;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: -150px;
+    padding: 0;
+}
+
+.releases-transparent-title {
+    margin-top: -20px;
+}
+
+.releases-last-work-text {
+    position: absolute;
+    object-fit: contain;
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.29;
+    text-align: left;
+    color: #ffffff;
+
+    white-space: nowrap;
+}
+
+.releases-last-work-title {
+    margin-top: 120px;
+}
+
+.releases-last-work-under-part {
+    /*то на сколько опустится картинка которая слайдится в карусели слева*/
+    margin-top: -150px;
+}
+
+.carousel-inner-item-left {
+    margin-top: 235px;
+}
+
+.releases-xcom-hobby-text {
+    object-fit: contain;
+    font-family: Geometria-Light;
+    font-size: 21px;
+    line-height: 1.1;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* --------------- CAROUSEL RIGHT SIDE WITH SLIDES --------------- */
+
+.carousel-inner-item-right {
+    /*overflow: hidden;*/
+    /*position: absolute;*/
+
+    /*outline-offset: 20px;
+    .carousel-inner {
+         margin: -15px;
+
+    .carousel-inner .item {
+         border-radius: 5px;
+         overflow: hidden;
+     }
+    */
+}
+
+.releases-xcom-hobby-img-carousel {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: -40px;
+}
+
+.releases-img-carousel-right {
+    border-radius: 3px;
+}
+
+/*/////////////////////////////////////////
+/* // NEW INDICATORS 5 CIRCLES 
+/*
+ol.carousel-indicators li.active {
+    border-color: #0782ff;
+    background-color: #0782ff;
+    border-radius: 16px;
+}
+
+ol.carousel-indicators li {
+    border-color: #a2a2a2;
+    background-color: #a2a2a2;
+    border-radius: 4px;
+}
+
+.carousel-indicators {
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    top: 630px;
+    left: 1155px;
+    background-position-y: 100px;
+
+}
+*/
+
+/*
+    width: 600px;
+    position: absolute;
+    left: 255px;
+    top: 550px;
+*/
+
+/*//////////////////////////////////////////
+/// OLD INDICATORS PRJAMOUGOLNIKI 5 SHTUK */
+ol.carousel-indicators li.active {
+    width: 65px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 0;
+    opacity: 1;
+    color: white;
+}
+
+ol.carousel-indicators li {
+    width: 65px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 0;
+    opacity: 0.35;
+    color: white;
+    background-color: white;
+}
+
+.carousel-indicators {
+    width: 600px;
+    position: absolute;
+    left: 292px;
+    top: 550px;
+}
+
+.releases-img-title {
+    margin-top: 30px;
+}
+
+.releases-xcom-hobby-title {
+    margin-top: 12px;
+}
+
+/* --------------- CAROUSEL FADE TRANSITION PART --------------- */
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/* --------------- LEAVE REQUEST --------------- */
+.request-submit {
+    padding: 100px 0;
+}
+
+.request-title {
+    padding: 10px 0;
+}
+
+.request-col {
+    padding: 10px 0;
+}
+
+.request-btn-send {
+    padding: 10px 0;
+}
+
+.request-title-col {
+    text-align: left;
+}
+
+.request-title-text {
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.18;
+    color: #0782ff;
+}
+
+.request-form-box {
+    height: 50px;
+    font-family: Geometria, sans-serif;
+    border-radius: 0;
+}
+
+.request-form-comments-box {
+    font-family: Geometria, sans-serif;
+    padding: 11px;
+    box-sizing: border-box;
+    color: #9d9d9d;
+    height: 100px;
+    width: 100%;
+    border-radius: 0;
+    object-fit: contain;
+    border: solid 1px #d1d1d1;
+}
+
+.request-form-comments-box::-webkit-input-placeholder {
+    text-align: left;
+    padding: -10px -10px;
+    opacity: 0.80;
+}
+
+.request-form-add-file-box {
+    height: 50px;
+    border-radius: 0;
+    background: url('img/staple.png') no-repeat;
+    background-position: 430px;
+}
+
+#the-file {
+    display: none;
+}
+
+#the-file-label {
+    font-family: Geometria, sans-serif;
+    color: #9d9d9d;
+    cursor: pointer;
+    padding: 15px 11px;
+    width: 100%;
+    height: 50px;
+    background: url('img/staple.png') no-repeat;
+    background-position-y: 12px;
+    background-position-x: 430px;
+    border: 1px dashed #d1d1d1;
+}
+
+.request-btn-send {
+    background-color: #ffe5e5;
+    border-radius: 0;
+    width: 100%;
+
+    font-family: Geometria, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.24;
+    color: white;
+}
+
+.btn:hover, .btn:focus {
+    color: white;
+}
+
+/* --------------- CONTACTS --------------- */
+.footer {
+    width: 100%;
+    object-fit: contain;
+    background-image: linear-gradient(to right, #264095, #2757c5 14%, #4961ff 28%, #7e5eff 62%, #4a2084);
+}
+
+.contacts-footer {
+    padding: 106px 0 33px;
+}
+
+.contacts-phone {
+    margin-top: 6px;
+}
+
+.contacts-email {
+    margin-top: 6px;
+}
+
+.contact-image {
+    max-width: 100%;
+    display: block;
+    margin-top: 7px;
+    margin-left: -7px;
+}
+
+.contacts-title {
+    font-family: Geometria-ExtaBlack, sans-serif;
+    font-size: 56px;
+    color: #ffffff;
+}
+
+.contacts-icons {
+    margin-bottom: 103px;
+    margin-left: -40px;
+}
+
+.contacts-icon-text {
+    object-fit: contain;
+    font-family: Geometria, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.39;
+    text-align: left;
+    color: white;
+    margin-left: -20px;
+}
+
+.contacts-icon-text a {
+    color: white;
+}
+
+.contacts-bottom {
+    padding-bottom: 34px;
+}
+
+.contacts-bottom-text {
+    object-fit: contain;
+    opacity: 0.75;
+    font-family: Geometria, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.29;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* --------------- END --------------- */
+
+@font-face {
+    font-family: Geometria;
+    src: url('libs/bootstrap/fonts/geometria/Geometria.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-ExtaBlack;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-ExtaBlack.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Heavy;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Bold;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Medium;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Light;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Light;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-ExtraLight;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-ExtraLight;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Geometria-Thin;
+    src: url('libs/bootstrap/fonts/geometria/Geometria-Thin.otf') format('opentype');
+}
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and  (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and  (max-width: 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and  (max-width: 767px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and  (max-width: 480px) {
+
+}
+
