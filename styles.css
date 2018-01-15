@@ -1,10 +1,83 @@
-html, body, .container {
+/*html, body, .container {
     min-width: 1300px;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+*/
+
+
+.header-gripple-expo {
+    object-fit: contain;
+    text-align: center;
+}
+
+.header-expo-text{
+    left: -120px;
+    text-align: left;
+}
+
+.header-gripple{
+    margin: 20px 20px 20px 20px;
+}
+.header-expo{
+    margin: 20px 20px 20px 20px;
+}
+
+/* --------------- BLOCK UNIGRIP --------------- */
+
+.block-unigrip-gray {
+    height: auto;
+    object-fit: contain;
+    background-image: linear-gradient(rgba(44, 44, 44, 1), rgba(44, 44, 44, 1));
+}
+
+
+.block-usage-areas-title {
+    /*float:left;*/
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /*font-family: Geometria, sans-serif;*/
+    font-size: 30px;
+    color: #000000;
+}
+
+.block-usage-areas {
+    /*float:left;*/
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /*font-family: Geometria, sans-serif;*/
+    font-size: 20px;
+    color: #000000;
+}
+
+.block-advantages-title {
+    /*float:left;*/
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /*font-family: Geometria, sans-serif;*/
+    font-size: 30px;
+    color: #000000;
+}
+
+.block-advantages{
+    /*float:left;*/
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /*font-family: Geometria, sans-serif;*/
+    font-size: 20px;
+    color: #000000;
+}
+
+.yandex-map {
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 /* --------------- BASE STYLE --------------- */
@@ -482,104 +555,13 @@ ol.carousel-indicators li {
     z-index: 2;
 }
 
-/* --------------- LEAVE REQUEST --------------- */
-.request-submit {
-    padding: 100px 0;
-}
-
-.request-title {
-    padding: 10px 0;
-}
-
-.request-col {
-    padding: 10px 0;
-}
-
-.request-btn-send {
-    padding: 10px 0;
-}
-
-.request-title-col {
-    text-align: left;
-}
-
-.request-title-text {
-    font-family: Geometria-ExtaBlack, sans-serif;
-    font-size: 45px;
-    font-weight: 800;
-    line-height: 1.18;
-    color: #0782ff;
-}
-
-.request-form-box {
-    height: 50px;
-    font-family: Geometria, sans-serif;
-    border-radius: 0;
-}
-
-.request-form-comments-box {
-    font-family: Geometria, sans-serif;
-    padding: 11px;
-    box-sizing: border-box;
-    color: #9d9d9d;
-    height: 100px;
-    width: 100%;
-    border-radius: 0;
-    object-fit: contain;
-    border: solid 1px #d1d1d1;
-}
-
-.request-form-comments-box::-webkit-input-placeholder {
-    text-align: left;
-    padding: -10px -10px;
-    opacity: 0.80;
-}
-
-.request-form-add-file-box {
-    height: 50px;
-    border-radius: 0;
-    background: url('img/staple.png') no-repeat;
-    background-position: 430px;
-}
-
-#the-file {
-    display: none;
-}
-
-#the-file-label {
-    font-family: Geometria, sans-serif;
-    color: #9d9d9d;
-    cursor: pointer;
-    padding: 15px 11px;
-    width: 100%;
-    height: 50px;
-    background: url('img/staple.png') no-repeat;
-    background-position-y: 12px;
-    background-position-x: 430px;
-    border: 1px dashed #d1d1d1;
-}
-
-.request-btn-send {
-    background-color: #ffe5e5;
-    border-radius: 0;
-    width: 100%;
-
-    font-family: Geometria, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 1.24;
-    color: white;
-}
-
-.btn:hover, .btn:focus {
-    color: white;
-}
-
 /* --------------- CONTACTS --------------- */
 .footer {
     width: 100%;
     object-fit: contain;
-    background-image: linear-gradient(to right, #264095, #2757c5 14%, #4961ff 28%, #7e5eff 62%, #4a2084);
+    /*background-image: linear-gradient(top, #002d72 16%, #3888fb 100%, #7db9e8 100%, #3888fb 101%); */
+    /*background-image: linear-gradient(to right, #264095, #2757c5 14%, #4961ff 28%, #7e5eff 62%, #4a2084);*/
+    background-image: linear-gradient(to right, #7db9e8, #3888fb 14%, #002d72 28%, #002d72 62%, #7db9e8);
 }
 
 .contacts-footer {
@@ -635,7 +617,7 @@ ol.carousel-indicators li {
     object-fit: contain;
     opacity: 0.75;
     font-family: Geometria, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.29;
     text-align: left;
