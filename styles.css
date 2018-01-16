@@ -8,6 +8,10 @@ img {
 }
 */
 
+.haus>a {
+     position: absolute;
+     z-index: 9999;
+ } 
 
 .header-gripple-expo {
     object-fit: contain;
